@@ -12,17 +12,17 @@
 }
 .flexbox-item{
     display: flex;
-    text-align: left;
+    text-align: right;
     
 }
 
 button{
-    width: 150px; 
-    height: 50px;
+    width: 120px; 
+    height: 30px;
 }
 img{
-width: 100%;
-height: 25%;
+width: 70%;
+height: 80%;
 }
 .flexbox-header{
     height: 40%;
