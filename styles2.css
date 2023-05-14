@@ -1,0 +1,76 @@
+.flexbox-container{
+    display: flex;
+    padding: 3%;
+    flex-direction:row;
+    border-style: dashed;
+    height: 100px;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    
+}
+.flexbox-item{
+    border-style: solid;
+    text-align: center;   
+    width: 150px;
+    height: 15px;
+    
+}
+/*.flexbox-second{
+    border-style: solid;
+    text-align: center;
+    width: 100px;   
+}*/
+#item1{ /*estos Ids no permiten que space-around funcione*/
+    flex: 1;
+}
+#item2{
+    flex: 1;
+}
+#item3{
+    flex: 1;
+
+}
+
+.flexbox-container-style{
+    display: flex;
+    padding: 3%;
+    flex-direction:column;
+    height: 350px;
+    border-style: dashed;
+    align-items:center;/*Centra las cajas*/
+    justify-content: space-around;/* para separar cajas */
+    flex-wrap: wrap;
+     /*Ordena acorde el ancho de pantalla*/
+}
+/*#itemData{
+    border-style: solid;
+    text-align: center;
+    width: 100px;
+}*/
+.flexbox-second{
+    border-style: solid;
+    text-align: center;
+    width: 400px; /* ancho*/
+    
+}
+.flexbox-third{
+    padding:5%;
+    /*border-style: solid;*/
+    text-align: justify;
+    width: 300px;
+    height: 250px; 
+    flex-direction: column;
+    justify-content: space-around; 
+    
+}
+.flexbox-sub-container{
+    display: flex;
+ }
+.style-div{
+    border-style: solid;
+    width: 320px;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+    
+
+}

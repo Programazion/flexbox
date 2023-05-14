@@ -1,0 +1,33 @@
+.flexbox-container{
+    display: flex;
+    padding: 3%;
+    flex-direction:row;
+    /*border-style:dashed;*/
+    height: 200px;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    
+    
+}
+.flexbox-item{
+    display: flex;
+    text-align: left;
+    
+}
+
+button{
+    width: 150px; 
+    height: 50px;
+}
+img{
+width: 100%;
+height: 25%;
+}
+.flexbox-header{
+    height: 40%;
+    border-style: solid;
+    border-bottom: 5px;
+    background-color: black;
+
+}
