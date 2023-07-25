@@ -3,10 +3,11 @@
     padding: 3%;
     flex-direction:row;
     /*border-style:dashed;*/
-    height: 200px;
+    height: 100%;
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
+    align-items: center;/*Buscar la relaciónn de tamaño*/
     
     
 }
@@ -21,8 +22,8 @@ button{
     height: 30px;
 }
 img{
-width: 70%;
-height: 80%;
+width: 50%;
+height:70%;
 }
 .flexbox-header{
     height: 40%;
